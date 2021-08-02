@@ -1,3 +1,10 @@
 html {
   font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
 }
+
+:root {
+  --prtimes-blue: #294c7a;
+  --link-blue: #3081c9;
+  --gray: #bfc9d7;
+  --white: #ffffff;
+}

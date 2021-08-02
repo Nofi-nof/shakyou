@@ -1,0 +1,49 @@
+.header {
+  background-color: var(--prtimes-blue);
+}
+
+.header-container {
+  display: flex;
+  max-width: 1125px;
+  padding: 12px 0;
+  margin: 0 auto;
+  align-items: center;
+  color: var(--gray);
+}
+
+.header-comment-prtimes {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.header-reqest_list {
+  display: flex;
+}
+
+.header-search_form {
+  display: flex;
+}
+
+.header-search_input {
+  height: 30px;
+  width: 258px;
+  line-height: 30px;
+  border-radius: 4px 0 0 4px;
+  background-color: white;
+  padding-left: 8px;
+}
+
+.header-search_button {
+  height: 30px;
+  width: 30px;
+  border-radius: 0 4px 4px 0;
+  background-image: url(../img/serch_icon.svg);
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--link-blue);
+}
+
+.header-navigation_list {
+  display: flex;
+}
