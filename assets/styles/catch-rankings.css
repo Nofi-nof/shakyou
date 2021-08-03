@@ -1,0 +1,15 @@
+.catch-rankings {
+  margin: 0 auto;
+  background-color: var(--back-gray);
+}
+
+.catch-rankings .catch-rankings-tabs_wrapper {
+  padding: 30px 0;
+}
+
+.catch-rankings-tabs_list {
+  display: flex;
+  justify-content: center;
+  color: var(--prtimes-blue);
+  font-weight: bold;
+}
