@@ -10,23 +10,23 @@
 
 <body>
   <div class="header">
-    <div class="header_container">
+    <div class="header__container">
       <a></a> <img src="assets/img/logo_prtimes.svg">
       <h1 class="header-comment-prtimes">プレスリリース・ニュースリリース配信サービスのPR TIMES</h1>
       <div class="header-reqest">
-        <ul class="header-reqest_list">
+        <ul class="header-reqest__list">
           <li><a href="#">プレスリリースを受信</a></li>
           <li><a href="#">企業登録申請</a></li>
           <li><a href="#">ログイン</a></li>
         </ul>
       </div>
-      <div class="header-search_form">
-        <input type="text" class="header-search_input" placeholder="キーワードで検索">
-        <button class="header-search_button"></button>
+      <div class="header-search__form">
+        <input type="text" class="header-search__input" placeholder="キーワードで検索">
+        <button class="header-search__button"></button>
       </div>
     </div>
     <nav class="header-intro-navigation">
-      <ul class="header-intro-navigation_list">
+      <ul class="header-intro-navigation__list">
         <li><a href="#">プレスリリース</a></li>
         <li><a href="#">ランキング</a></li>
         <li><a href="#">TV</a></li>
@@ -34,7 +34,7 @@
       </ul>
     </nav>
     <nav class="header-category-navigation">
-      <ul class="header-category-navigation_list">
+      <ul class="header-category-navigation__list">
         <li><a href="#">総合</a></li>
         <li><a href="#">テクノロジー</a></li>
         <li><a href="#">モバイル</a></li>
@@ -51,16 +51,19 @@
   </div>
 
   <section class="catch-rankings">
-    <div class="catch-rankings_container">
-      <div class="catch-rankings-tabs_wrapper">
-        <ul class="catch-rankings-tabs_list">
-          <li><span>旬速</span></li>
-          <li><span>いま話題</span></li>
-          <li><span>今日のランキング</span></li>
-          <li><span>SNSで話題</span></li>
-          <li><span>今週のランキング</span></li>
-          <li><span>今月のランキング</span></li>
-        </ul>
+    <div class="catch-rankings__container">
+      <div class="catch-rankings-tabs__wrapper">
+        <div class="catch-rankings-tabs">
+          <span class="catch-rankings-tabs__background"></span>
+          <ul class="catch-rankings-tabs__list">
+            <li>旬速</li>
+            <li>いま話題</li>
+            <li>今日のランキング</li>
+            <li>SNSで話題</li>
+            <li>今週のランキング</li>
+            <li>今月のランキング</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

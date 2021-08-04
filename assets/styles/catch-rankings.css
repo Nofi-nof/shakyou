@@ -1,15 +1,31 @@
 .catch-rankings {
-  margin: 0 auto;
   background-color: var(--back-gray);
 }
 
-.catch-rankings .catch-rankings-tabs_wrapper {
+.catch-rankings-tabs__wrapper {
   padding: 30px 0;
 }
 
-.catch-rankings-tabs_list {
+.catch-rankings-tabs__list {
   display: flex;
   justify-content: center;
+}
+
+.catch-rankings-tabs__list li {
+  cursor: pointer;
+  width: 155px;
+  height: 40px;
+  background-color: var(--white);
   color: var(--prtimes-blue);
+  font-size: 15px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--back-gray);
+}
+
+.catch-rankings-tabs__list li:hover {
+  background-color: var(--prtimes-blue);
+  color: var(--white);
 }
