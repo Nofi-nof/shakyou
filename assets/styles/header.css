@@ -5,15 +5,15 @@
 .header__container {
   display: flex;
   max-width: 1125px;
-  padding: 12px 0;
   margin: 0 auto;
+  padding: 12px 0;
   align-items: center;
   color: var(--script-gray);
 }
 
 .header-comment-prtimes {
-  font-size: 12px;
   padding-left: 8px;
+  font-size: 12px;
 }
 
 .header-reqest {
@@ -22,11 +22,11 @@
 
 .header-reqest__list {
   display: flex;
-  font-size: 13px;
   background-color: #345584;
   border-radius: 4px;
   padding: 6px 8px 8px;
   color: var(--white);
+  font-size: 13px;
 }
 
 .header-reqest__list li {
@@ -44,12 +44,12 @@
 }
 
 .header-search__input {
-  height: 30px;
   width: 258px;
-  line-height: 30px;
+  height: 30px;
   border-radius: 4px 0 0 4px;
   background-color: white;
   padding-left: 8px;
+  line-height: 30px;
   font-size: 13px;
 }
 
@@ -57,11 +57,11 @@
   height: 30px;
   width: 30px;
   border-radius: 0 4px 4px 0;
+  background-color: var(--link-blue);
   background-image: url(../img/serch_icon.svg);
   background-size: 21px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--link-blue);
 }
 
 .header-intro-navigation {
@@ -94,8 +94,8 @@
 }
 
 .header-category-navigation__list {
-  padding: 15px 0;
   display: flex;
+  padding: 15px 0;
   justify-content: center;
   color: var(--prtimes-blue);
   font-size: 13px;
