@@ -2,8 +2,13 @@
   background-color: var(--back-gray);
 }
 
-.catch-rankings-tabs__wrapper {
+.catch-rankings__container {
   padding: 30px 0;
+}
+
+.catch-ranking__img {
+  height: 116px;
+  width: 181px;
 }
 
 .catch-rankings-tabs__list {
@@ -28,4 +33,49 @@
 .catch-rankings-tabs__list li:hover {
   background-color: var(--prtimes-blue);
   color: var(--white);
+}
+
+.catch-rankings-links__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 0 0;
+}
+
+.catch-rankings-links__item {
+  width: 181px;
+  height: 244px;
+  background-color: var(--white);
+}
+
+.catch-ranking__content {
+  padding: 7px 10px;
+}
+
+.catch-ranking__title {
+  font-size: 13px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.catch-ranking__title:hover {
+  color: var(--link-blue);
+  text-decoration: underline;
+}
+
+.catch-ranking__info {
+  color: var(--script-dark-gray);
+}
+
+.catch-ranking__time {
+  font-size: 12px;
+}
+
+.catch-ranking__company-name {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.catch-ranking__company-name:hover {
+  color: var(--black);
 }
