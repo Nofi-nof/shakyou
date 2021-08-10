@@ -1,0 +1,63 @@
+.main {
+  width: 1125px;
+  margin: 0 auto;
+  display: flex;
+  padding: 30px 0 50px;
+}
+
+.page__main {
+  width: 778px;
+}
+
+.page-main__heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.top-latest-articles__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-article {
+  display: flex;
+  width: 380px;
+  min-height: 118px;
+  padding: 15px 0 13px;
+  border-bottom: 1px solid var(--main-line-gray);
+  position: relative;
+}
+
+.list-article__title {
+  width: 265px;
+  height: 65px;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 3px;
+}
+
+.list-article__title:hover {
+  text-decoration: underline;
+  color: var(--link-blue);
+}
+
+.list-article__info {
+  font-size: 12px;
+  color: var(--script-dark-gray);
+}
+
+.list-article__company-name {
+  cursor: pointer;
+}
+
+.list-article__company-name:hover {
+  color: var(--black);
+}
+
+.list-article__img {
+  width: 100px;
+  height: 102px;
+}
