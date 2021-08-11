@@ -61,3 +61,21 @@
   width: 100px;
   height: 102px;
 }
+
+.list-article__more {
+  background-color: var(--link-blue);
+  width: 110px;
+  height: 38px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px var(--script-gray);
+  position: relative;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.list-article__more:hover {
+  background-color: rgb(73 148 224);
+}
