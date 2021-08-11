@@ -1,0 +1,31 @@
+.sidebar {
+  width: 308px;
+  margin-left: auto;
+}
+
+.sidebar-keywords__heading {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar-keywords__list-item {
+  background-color: var(--back-gray);
+  border-radius: 14px;
+  font-size: 13px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.sidebar-keywords__list-item:hover {
+  font-weight: bold;
+}
+
+.sidebar-keywords__list-item--more {
+  font-size: 12px;
+  color: var(--black);
+}
+
+.sidebar-keywords__list-item--more:hover {
+  color: var(--link-blue);
+}
