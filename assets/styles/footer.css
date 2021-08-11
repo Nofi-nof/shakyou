@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--back-gray);
+  padding: 73px 0 10px;
+}
+.footer__container {
+  width: 1125px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid var(--main-line-gray);
+}
+
+.footer-menu__list-wrap {
+  display: table-cell;
+}
+
+.footer-menu__list-heading {
+  color: var(--black);
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.footer-menu__list-item {
+  color: var(--script-dark-gray);
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.footer-menu__list-item:hover {
+  text-decoration: underline;
+  color: var(--black);
+}
